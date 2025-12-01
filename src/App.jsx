@@ -30,6 +30,8 @@ const App = () => {
   };
 
   return (
+
+    <div className="idDiv">
     <div>
       <h1>Lista de Tarefas</h1>
       <TaskInput onAddTask={addTask} />
@@ -38,6 +40,7 @@ const App = () => {
         onDeleteTask={deleteTask}
         onToggleTaskDone={toggleTaskDone}
       />
+    </div>
     </div>
   );
 };

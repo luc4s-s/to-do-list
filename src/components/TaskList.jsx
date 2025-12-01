@@ -2,6 +2,11 @@ import React from "react";
 import Task from "./Task";
 
 const TaskList = ({ tasks, onDeleteTask, onToggleTaskDone }) => {
+
+  if(tasks.length === 0){
+  return <p>Nao á Tarefas, Adicione uma nova</p>
+}
+
   return (
     <ul>
       {tasks.map((task) => (
