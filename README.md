@@ -1,16 +1,18 @@
-# React + Vite
+📌 To-Do-List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Gerenciador de Tarefas (To-Do List) Desenvolvi uma interface interativa para organização pessoal que permite ao usuário criar, gerenciar e excluir tarefas. O destaque da aplicação é o feedback visual de status: tarefas concluídas são marcadas instantaneamente com uma linha sobre o texto (efeito riscado), facilitando a distinção entre o que está pendente e o que já foi feito, além de permitir a remoção completa de itens desnecessários com um clique.
 
-Currently, two official plugins are available:
+🚀 Tecnologias usadas 
+• React / JavaScript
+• html
+• css
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📝 Funcionalidades
 
-## React Compiler
+[x] Adição de Tarefas: Permite a inserção dinâmica de novos itens na lista.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+[x] Controle de Conclusão: Ao clicar sobre uma tarefa, o texto recebe uma linha horizontal (tachado), indicando visualmente que a atividade foi finalizada, sem excluí-la da vista.
 
-## Expanding the ESLint configuration
+[x] Remoção de Itens: Possui uma função de exclusão que remove a tarefa definitivamente da lista, mantendo a interface limpa.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![imagem do projeto ](src/assets/to-do-list.png)
